@@ -1,0 +1,13 @@
+[package]
+name = "maturin_template"
+version = "0.1.0"
+edition = "2021"
+
+# 生成 CLI 可执行文件
+[[bin]]
+name = "maturin_template"  # CLI 名称与 Python 包名一致
+path = "src/main.rs"
+
+[dependencies]
+# 例如添加 clap 处理 CLI 参数
+clap = { version = "4.0", features = ["derive"] }
