@@ -2,6 +2,8 @@
 name = "mvp"
 version = "0.1.0"
 edition = "2021"
+description = "MVP Implementation in Rust and Python by HydroRoll-Team"
+license = "AGPL-3.0"
 
 [[bin]]
 name = "mvp"
