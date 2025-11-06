@@ -3,7 +3,7 @@ import sys
 
 def run_cli(*args):
     result = subprocess.run(
-        ["maturin_template", *args],
+        ["mvp", *args],
         capture_output=True,
         text=True
     )

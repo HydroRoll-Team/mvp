@@ -1,3 +1,3 @@
-# maturin-template
+# MVP
 
-> maturin template for bin(and cli program).
+> MVP Implementation in Rust and Python by HydroRoll-Team
