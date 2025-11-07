@@ -3,7 +3,7 @@ requires = ["maturin>=1.0,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "mvp"
+name = "hydromvp"
 dynamic = ["version"]
 description = "MVP Implementation in Rust and Python by HydroRoll-Team"
 authors = [
