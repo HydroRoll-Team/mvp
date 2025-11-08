@@ -18,7 +18,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 dependencies = [
+    "aiohttp>=3.13.2",
     "conventionalrp>=1.2.1",
+    "fastapi>=0.121.0",
     "oneroll>=1.3.4",
 ]
 
