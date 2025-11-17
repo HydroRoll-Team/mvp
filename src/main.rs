@@ -1,4 +1,5 @@
 use clap::Parser;
+use tklog::{Async::Log, LogOption, LOG};
 
 #[derive(Parser, Debug)]
 #[command(name = "mt")]
@@ -9,5 +10,6 @@ struct Args {
 
 fn main() {
     let args = Args::parse();
-    println!("Hello from CLI, {}!", args.name);
+    let log = Log::new();
+    tklog::info!(&format!("Hello from CLI, {}!", args.name));
 }

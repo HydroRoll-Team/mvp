@@ -210,7 +210,7 @@ class OneBot11Client:
         print("Original Data:")
         print(json.dumps(data, indent=2, ensure_ascii=False))
 
-        print(f"\n🔍 Mapped Object Access Examples:")
+        print("\nMapped Object Access Examples:")
         print(f"{mapped_obj}")
 
         if post_type == "message":
