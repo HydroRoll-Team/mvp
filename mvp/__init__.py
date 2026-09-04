@@ -205,6 +205,8 @@ class OneBot11Client:
         :param data: Original message data
         :param mapped_obj: Mapped message object
         """
+        post_type = data.get("post_type")
+
         timestamp = datetime.now().strftime("%H:%M:%S.%f")[:-3]
         print(f"[{timestamp}] {msg_type}")
         print("Original Data:")
